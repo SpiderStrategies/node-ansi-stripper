@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node test"
   },
+  "bin": {
+    "ansistrip": "./bin/ansistrip.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/SpiderStrategies/node-ansi-stripper.git"
@@ -16,5 +19,8 @@
     "colors"
   ],
   "author": "Nathan Bowser <nathan.bowser@spiderstrategies.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "through2": "^0.4.1"
+  }
 }
